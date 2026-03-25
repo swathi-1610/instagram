@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+    .container{
+        display: flex;
+    }
+    .left-container{
+        width: 55%;
+        border: 1px solid #DDE2E8;
+    }
+    .logo img{
+        width:16%;
+        padding: 5% 0% 0% 5%;
+    }
+    .left-container .left-text{
+        text-align: center;
+    }
+    .left-container .left-text h1{
+        font-weight: normal;
+        font-size: 35px;
+    }
+    .gradient-text {
+        background: linear-gradient(to right,#FF5A1B,#FD006F,#D500C2);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       font-size: 24px;
+       font-weight:normal;
+     
+    }
+    .image-container img{
+        width: 50%;
+    }
+    .right-container{
+        width: 45%;
+        border: 1px solid #DDE2E8;
+        padding: 5%;
+    }
+    .right-container input{
+            width: 90%;
+            padding:20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius:10px;
+            border-top: 50%;  
+        }
+    .right-container button{
+        gap: 10%;
+        width:525px;
+        padding: 3%;
+        color: white;
+        background-color: #99C1F3;
+        border:1px solid black;
+        border: none;
+        border-radius: 999px;
+    }
+    .right-container .forget-container{
+        width:490px;
+        padding: 2.5%;
+        border:1px solid none;
+        border-radius: 999px;
+        margin-bottom: 10%;
+        margin-top: 2%;
+        text-align: center;
+    }
+    .forget-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .forget-container:hover{
+        background-color: #F2F2F2;
+        color:black;
+    }
+    .links .facebook-link{
+        width:490px;
+        padding: 2.5%;
+        border:1px solid #CCD3DB;
+        border-radius: 999px;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .facebook-link a{
+        color: black;
+    }
+    .facebook-link a i{
+        border-radius:999px;
+    }
+    .facebook-link:hover{
+        background-color: #F2F2F2;
+    }
+    .links a{
+        text-decoration: none;
+    }
+    .meta{
+        border-radius: 999px;
+    }
+    .links .signup-link{
+        width:490px;
+        padding:2.5%;
+        border:1px solid #0064E0;
+        border-radius: 999px;
+        text-align: center;
+    }
+    .signup-link a{
+        color: #005FD5;
+    }
+    .signup-link:hover{
+        background-color: #F2F2F2;
+    }
+    .meta{
+        text-align: center;
+    }
+     </style>
+</head>
+<body>
+    <form action="home.html">
+        <div class="container">
+            <div class="left-container">
+                <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lv-iEOWtRxGDqsOR-Pa1kIiqN298569zVA&s" alt="">
+                </div>
+                <div class="left-text">
+                     <h1>See everyday moments from <br>your <span class="gradient-text" style="font-size: 35px;"> close friends.</span></h1>
+                </div>
+                <div class="image-container">
+                        <img src="https://static.cdninstagram.com/rsrc.php/v4/yt/r/pAv7hjq-51n.png" alt="">
+                </div>
+            </div>
+            <div class="right-container">
+                   <h4 style="font-weight:100px;">Log into Instagram</h4>
+                   <input type="text" name="Mobile Number,username or email" placeholder="Mobile Number,username or email" required>
+                   <input type="text" name="Password" placeholder="Password" required>
+                   <button>Log in</button>
+                   <div class="forget-container">
+                         <a href="https://www.instagram.com/accounts/password/reset/?hl=en">Forget Password?</a>
+                   </div>
+                   <div class="links">
+                    <div class="facebook-link">
+                          <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATl93DTteZTdJ0wPtRSDBDIKtUEN-9RkOuhOo3OBgc-hwc-Ba6HZeDLmoOFr6J8uOZCf8ZqdMC3twWrqrxIg42gUXrKU9ypRHdtxXCjwkhMWAOJ7SvuKN2kahETEZbOCCyfwwnT2kI-RHjfHAZBPS6sYYyUmCBZ3BsxgN8fsTfUT6viXZapGf8gKOPU4ExMrU_vU8qXoGkTP7msPZSRsYaQyKd4HGjfXvlvDr2vbxbvmKJOPViWpJRkAmrnto6RD5KboqaxKwDDZrNO_5wSndyH8_w"><i class="fa-brands fa-square-facebook" style="color: #2190FB"></i>Log in with Facebook</a>
+                    </div>
+                   <div class="signup-link">
+                        <a href="signup.html">Create new account</a>
+                   </div>
+                   </div>
+                   <div class="meta">
+                      <h4><i class="fa-brands fa-meta" style="color: #2190FB;"></i></a>Meta</h4>
+                     </div>
+                </div>
+            </div>
+    </form>
+</body>
+</html>
